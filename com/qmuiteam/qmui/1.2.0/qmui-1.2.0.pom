@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.qmuiteam</groupId>
+  <artifactId>qmui</artifactId>
+  <version>1.2.0</version>
+  <packaging>aar</packaging>
+  <name>qmui</name>
+  <url>http://qmuiteam.com/android/page/index.html</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/QMUI/QMUI_Android/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>chanthuang</id>
+      <name>chanthuang</name>
+      <email>chant.chenhuang@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/QMUI/QMUI_Android</connection>
+    <developerConnection>https://github.com/QMUI/QMUI_Android</developerConnection>
+    <url>http://qmuiteam.com/android/page/index.html</url>
+  </scm>
+</project>

@@ -1,0 +1,190 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.robolectric",
+    "module": "sandbox",
+    "version": "4.8.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.robolectric",
+          "module": "annotations",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "org.robolectric",
+          "module": "utils",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "org.robolectric",
+          "module": "shadowapi",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "org.robolectric",
+          "module": "utils-reflector",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "javax.annotation",
+          "module": "javax.annotation-api",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "javax.inject",
+          "module": "javax.inject",
+          "version": {
+            "requires": "1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "27.0.1-jre"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sandbox-4.8.1.jar",
+          "url": "sandbox-4.8.1.jar",
+          "size": 130804,
+          "sha512": "bf560ff6020f6f216746ed480f7f745b65787eadf45b0eee331433f2d1ce639f877b13598f56a4a2f98fb460dd2339e1a0b8a253a088788d071bbee05366bc9d",
+          "sha256": "ec132754fbd4a9b0c6658a2d3b12a2c6c2f2f56dfbd4ab1bd429441853697a41",
+          "sha1": "80caa8d70939576bbf1ade36759857040f9c09f7",
+          "md5": "7afe25067e773455bb36741ebf4035a0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.robolectric",
+          "module": "annotations",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "org.robolectric",
+          "module": "utils",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "org.robolectric",
+          "module": "shadowapi",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "org.robolectric",
+          "module": "utils-reflector",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "javax.annotation",
+          "module": "javax.annotation-api",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "javax.inject",
+          "module": "javax.inject",
+          "version": {
+            "requires": "1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "27.0.1-jre"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sandbox-4.8.1.jar",
+          "url": "sandbox-4.8.1.jar",
+          "size": 130804,
+          "sha512": "bf560ff6020f6f216746ed480f7f745b65787eadf45b0eee331433f2d1ce639f877b13598f56a4a2f98fb460dd2339e1a0b8a253a088788d071bbee05366bc9d",
+          "sha256": "ec132754fbd4a9b0c6658a2d3b12a2c6c2f2f56dfbd4ab1bd429441853697a41",
+          "sha1": "80caa8d70939576bbf1ade36759857040f9c09f7",
+          "md5": "7afe25067e773455bb36741ebf4035a0"
+        }
+      ]
+    }
+  ]
+}

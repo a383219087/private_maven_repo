@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.google.android.exoplayer",
+    "module": "exoplayer-datasource",
+    "version": "2.18.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "exoplayer-datasource-2.18.1.aar",
+          "url": "exoplayer-datasource-2.18.1.aar",
+          "size": 139543,
+          "sha512": "bd20f1bf9b7622993fc2f1592f9b7a01a48a203f4e4a08a838a03d3c15d087d344aca00484545a7722ce244f4b06df449cde1776ecee11eb7e6818c61187ca68",
+          "sha256": "4c228fce4a22ff992726821eed39914d4ad532bbbc4b4ad31c1486ad306ebdb2",
+          "sha1": "43fe630b560900ce25a89ef84dda0213f58c770b",
+          "md5": "0764cbf5130d54f79d18d8f7e3a20017"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-common",
+          "version": {
+            "requires": "2.18.1"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-database",
+          "version": {
+            "requires": "2.18.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "exoplayer-datasource-2.18.1.aar",
+          "url": "exoplayer-datasource-2.18.1.aar",
+          "size": 139543,
+          "sha512": "bd20f1bf9b7622993fc2f1592f9b7a01a48a203f4e4a08a838a03d3c15d087d344aca00484545a7722ce244f4b06df449cde1776ecee11eb7e6818c61187ca68",
+          "sha256": "4c228fce4a22ff992726821eed39914d4ad532bbbc4b4ad31c1486ad306ebdb2",
+          "sha1": "43fe630b560900ce25a89ef84dda0213f58c770b",
+          "md5": "0764cbf5130d54f79d18d8f7e3a20017"
+        }
+      ]
+    }
+  ]
+}

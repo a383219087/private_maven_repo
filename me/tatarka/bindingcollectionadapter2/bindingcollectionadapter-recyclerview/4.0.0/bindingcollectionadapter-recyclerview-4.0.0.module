@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.tatarka.bindingcollectionadapter2",
+    "module": "bindingcollectionadapter-recyclerview",
+    "version": "4.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.2.1",
+      "buildId": "gfzsk45pmffvfkj4titwv452k4"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.tatarka.bindingcollectionadapter2",
+          "module": "bindingcollectionadapter",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-adapters",
+          "version": {
+            "requires": "3.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bindingcollectionadapter-recyclerview-4.0.0.aar",
+          "url": "bindingcollectionadapter-recyclerview-4.0.0.aar",
+          "size": 24532,
+          "sha512": "1aaf88a5422392cda8eff5cb473502d6cbbbd7252a732cca88efdbfb7220923be100973c23131a1b1d5c9b3231845dc45223668f41604605467d63f358795841",
+          "sha256": "7cf7a18a90de6ffd6197bd0984e40640d185e9967c5fa6f334a66c38c0a4b3a5",
+          "sha1": "c1121b74d2fc783212cb8eb95b33340868842d77",
+          "md5": "db1251b13f06fdd0b31b9da4522a89bc"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.tatarka.bindingcollectionadapter2",
+          "module": "bindingcollectionadapter",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-adapters",
+          "version": {
+            "requires": "3.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bindingcollectionadapter-recyclerview-4.0.0.aar",
+          "url": "bindingcollectionadapter-recyclerview-4.0.0.aar",
+          "size": 24532,
+          "sha512": "1aaf88a5422392cda8eff5cb473502d6cbbbd7252a732cca88efdbfb7220923be100973c23131a1b1d5c9b3231845dc45223668f41604605467d63f358795841",
+          "sha256": "7cf7a18a90de6ffd6197bd0984e40640d185e9967c5fa6f334a66c38c0a4b3a5",
+          "sha1": "c1121b74d2fc783212cb8eb95b33340868842d77",
+          "md5": "db1251b13f06fdd0b31b9da4522a89bc"
+        }
+      ]
+    }
+  ]
+}

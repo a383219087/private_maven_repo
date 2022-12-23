@@ -1,0 +1,279 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.robolectric",
+    "module": "shadows-framework",
+    "version": "4.8.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.robolectric",
+          "module": "annotations",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "org.robolectric",
+          "module": "nativeruntime",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "org.robolectric",
+          "module": "resources",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "org.robolectric",
+          "module": "pluginapi",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "org.robolectric",
+          "module": "sandbox",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "org.robolectric",
+          "module": "shadowapi",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "org.robolectric",
+          "module": "utils",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "org.robolectric",
+          "module": "utils-reflector",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "androidx.test",
+          "module": "monitor",
+          "version": {
+            "requires": "1.4.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "monitor",
+              "type": "aar",
+              "extension": "aar"
+            }
+          }
+        },
+        {
+          "group": "com.almworks.sqlite4java",
+          "module": "sqlite4java",
+          "version": {
+            "requires": "1.0.392"
+          }
+        },
+        {
+          "group": "com.ibm.icu",
+          "module": "icu4j",
+          "version": {
+            "requires": "70.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.google.auto.value",
+          "module": "auto-value-annotations",
+          "version": {
+            "requires": "1.7.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "shadows-framework-4.8.1.jar",
+          "url": "shadows-framework-4.8.1.jar",
+          "size": 4179069,
+          "sha512": "53ae05f5397f8cc164ef038e591b3681aa32ede92474a0bff664233f05566a36d6cdb90d5336fc7307e6401e0e914111d1a4d5c16e8f152c1ea884cd3ef1d238",
+          "sha256": "5fda3468ab58877ade2fab5c0a954a947a7b89d67c4e9eeda939eb8a91e1bf34",
+          "sha1": "70e2554817c274497814167043708bf686b856fb",
+          "md5": "5cec78d81019424fa8be958a7cb8a779"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.errorprone",
+          "module": "error_prone_annotations",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "org.robolectric",
+          "module": "annotations",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "org.robolectric",
+          "module": "nativeruntime",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "org.robolectric",
+          "module": "resources",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "org.robolectric",
+          "module": "pluginapi",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "org.robolectric",
+          "module": "sandbox",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "org.robolectric",
+          "module": "shadowapi",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "org.robolectric",
+          "module": "utils",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "org.robolectric",
+          "module": "utils-reflector",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "androidx.test",
+          "module": "monitor",
+          "version": {
+            "requires": "1.4.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "monitor",
+              "type": "aar",
+              "extension": "aar"
+            }
+          }
+        },
+        {
+          "group": "com.almworks.sqlite4java",
+          "module": "sqlite4java",
+          "version": {
+            "requires": "1.0.392"
+          }
+        },
+        {
+          "group": "com.ibm.icu",
+          "module": "icu4j",
+          "version": {
+            "requires": "70.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.google.auto.value",
+          "module": "auto-value-annotations",
+          "version": {
+            "requires": "1.7.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "shadows-framework-4.8.1.jar",
+          "url": "shadows-framework-4.8.1.jar",
+          "size": 4179069,
+          "sha512": "53ae05f5397f8cc164ef038e591b3681aa32ede92474a0bff664233f05566a36d6cdb90d5336fc7307e6401e0e914111d1a4d5c16e8f152c1ea884cd3ef1d238",
+          "sha256": "5fda3468ab58877ade2fab5c0a954a947a7b89d67c4e9eeda939eb8a91e1bf34",
+          "sha1": "70e2554817c274497814167043708bf686b856fb",
+          "md5": "5cec78d81019424fa8be958a7cb8a779"
+        }
+      ]
+    }
+  ]
+}

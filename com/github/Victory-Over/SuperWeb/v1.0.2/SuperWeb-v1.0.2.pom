@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.Victory-Over</groupId>
+  <artifactId>SuperWeb</artifactId>
+  <version>v1.0.2</version>
+  <packaging>aar</packaging>
+  <name>Victory-Over/SuperWeb</name>
+  <description>Android基于腾讯X5内核的WebView(超级浏览器)，拥有文件上传、下载、浏览（支持PDF/PPT/DOC/EXCEL/TXT格式）、Android与JS的交互、视频播放、自定义进度条、下拉回弹等功能</description>
+  <url>https://github.com/Victory-Over/SuperWeb</url>
+  <inceptionYear>2018</inceptionYear>
+  <developers>
+    <developer>
+      <id>Victory-Over</id>
+      <name>鲁宇峰</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/Victory-Over/SuperWeb.git</connection>
+    <developerConnection>scm:git://github.com/Victory-Over/SuperWeb.git</developerConnection>
+    <url>git://github.com/Victory-Over/SuperWeb.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>26.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>26.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

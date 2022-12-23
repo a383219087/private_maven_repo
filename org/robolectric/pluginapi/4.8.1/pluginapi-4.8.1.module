@@ -1,0 +1,92 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.robolectric",
+    "module": "pluginapi",
+    "version": "4.8.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.robolectric",
+          "module": "annotations",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "27.0.1-jre"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pluginapi-4.8.1.jar",
+          "url": "pluginapi-4.8.1.jar",
+          "size": 10276,
+          "sha512": "bf0940863fc1197d2c02d71b727b9a4f120d6601a6d1437e65afb38907054836511998393c9ad2b9603a36b67a041bc6476b4fae1dc23fd8974b653278c96c69",
+          "sha256": "bea89e22d02b946563cf320312bb3eb479f8f31aa9cf96f65ce35c2b80cd02bc",
+          "sha1": "f8026b7410e62faa6cab24181fbf431c07237e84",
+          "md5": "8dcbfd371656c9b70c7d6df3c02603a7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.robolectric",
+          "module": "annotations",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "27.0.1-jre"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pluginapi-4.8.1.jar",
+          "url": "pluginapi-4.8.1.jar",
+          "size": 10276,
+          "sha512": "bf0940863fc1197d2c02d71b727b9a4f120d6601a6d1437e65afb38907054836511998393c9ad2b9603a36b67a041bc6476b4fae1dc23fd8974b653278c96c69",
+          "sha256": "bea89e22d02b946563cf320312bb3eb479f8f31aa9cf96f65ce35c2b80cd02bc",
+          "sha1": "f8026b7410e62faa6cab24181fbf431c07237e84",
+          "md5": "8dcbfd371656c9b70c7d6df3c02603a7"
+        }
+      ]
+    }
+  ]
+}

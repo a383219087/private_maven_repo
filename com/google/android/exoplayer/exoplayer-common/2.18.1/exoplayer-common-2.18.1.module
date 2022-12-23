@@ -1,0 +1,135 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.google.android.exoplayer",
+    "module": "exoplayer-common",
+    "version": "2.18.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "31.0.1-android"
+          },
+          "excludes": [
+            {
+              "group": "com.google.j2objc",
+              "module": "j2objc-annotations"
+            },
+            {
+              "group": "org.checkerframework",
+              "module": "checker-compat-qual"
+            },
+            {
+              "group": "com.google.code.findbugs",
+              "module": "jsr305"
+            },
+            {
+              "group": "org.codehaus.mojo",
+              "module": "animal-sniffer-annotations"
+            },
+            {
+              "group": "org.checkerframework",
+              "module": "checker-qual"
+            },
+            {
+              "group": "com.google.errorprone",
+              "module": "error_prone_annotations"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "exoplayer-common-2.18.1.aar",
+          "url": "exoplayer-common-2.18.1.aar",
+          "size": 348743,
+          "sha512": "7648c011d8fbaaf77e539ecce7f79d77be400b3eef91111590f08e51e47294b5c7f20323219ad6924c122029660c833bde93ee7e8ae81fb4e0f3fb27c6e9f81b",
+          "sha256": "2ca678c0c88935361c01f75455747de6124565b46162cbbcab00aac5498cc846",
+          "sha1": "f6b4a931a44ef7a41a3b8ccc410b1277b8bdb62b",
+          "md5": "b8bf48d7e779ecb70268b0091dbb3a78"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "31.0.1-android"
+          },
+          "excludes": [
+            {
+              "group": "com.google.j2objc",
+              "module": "j2objc-annotations"
+            },
+            {
+              "group": "org.checkerframework",
+              "module": "checker-compat-qual"
+            },
+            {
+              "group": "com.google.code.findbugs",
+              "module": "jsr305"
+            },
+            {
+              "group": "org.codehaus.mojo",
+              "module": "animal-sniffer-annotations"
+            },
+            {
+              "group": "org.checkerframework",
+              "module": "checker-qual"
+            },
+            {
+              "group": "com.google.errorprone",
+              "module": "error_prone_annotations"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "exoplayer-common-2.18.1.aar",
+          "url": "exoplayer-common-2.18.1.aar",
+          "size": 348743,
+          "sha512": "7648c011d8fbaaf77e539ecce7f79d77be400b3eef91111590f08e51e47294b5c7f20323219ad6924c122029660c833bde93ee7e8ae81fb4e0f3fb27c6e9f81b",
+          "sha256": "2ca678c0c88935361c01f75455747de6124565b46162cbbcab00aac5498cc846",
+          "sha1": "f6b4a931a44ef7a41a3b8ccc410b1277b8bdb62b",
+          "md5": "b8bf48d7e779ecb70268b0091dbb3a78"
+        }
+      ]
+    }
+  ]
+}

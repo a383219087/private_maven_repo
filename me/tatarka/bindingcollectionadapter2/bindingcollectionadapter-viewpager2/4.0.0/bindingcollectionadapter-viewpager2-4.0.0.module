@@ -1,0 +1,141 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.tatarka.bindingcollectionadapter2",
+    "module": "bindingcollectionadapter-viewpager2",
+    "version": "4.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.2.1",
+      "buildId": "gfzsk45pmffvfkj4titwv452k4"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.tatarka.bindingcollectionadapter2",
+          "module": "bindingcollectionadapter",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "me.tatarka.bindingcollectionadapter2",
+          "module": "bindingcollectionadapter-recyclerview",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "androidx.viewpager2",
+          "module": "viewpager2",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-adapters",
+          "version": {
+            "requires": "3.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bindingcollectionadapter-viewpager2-4.0.0.aar",
+          "url": "bindingcollectionadapter-viewpager2-4.0.0.aar",
+          "size": 9040,
+          "sha512": "2c03156fa3e1daad2cfe3862ae0a49e6283e5afa1d341fd16cb17b754977086b2d69c8e91930d22d9c11546a89d66a37cdf911bf7699b720d384acd9032cad6c",
+          "sha256": "ceeff8e23b7c5da78b90364cc71d0ba9f0cbb86734b9db1ee151a1cf0cea3341",
+          "sha1": "74af45e653d032b6c2065ed17e81d5d29ab48275",
+          "md5": "dd9b4db550ac67a6fc799b8d33f68e3b"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.tatarka.bindingcollectionadapter2",
+          "module": "bindingcollectionadapter",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "me.tatarka.bindingcollectionadapter2",
+          "module": "bindingcollectionadapter-recyclerview",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "androidx.viewpager2",
+          "module": "viewpager2",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-adapters",
+          "version": {
+            "requires": "3.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bindingcollectionadapter-viewpager2-4.0.0.aar",
+          "url": "bindingcollectionadapter-viewpager2-4.0.0.aar",
+          "size": 9040,
+          "sha512": "2c03156fa3e1daad2cfe3862ae0a49e6283e5afa1d341fd16cb17b754977086b2d69c8e91930d22d9c11546a89d66a37cdf911bf7699b720d384acd9032cad6c",
+          "sha256": "ceeff8e23b7c5da78b90364cc71d0ba9f0cbb86734b9db1ee151a1cf0cea3341",
+          "sha1": "74af45e653d032b6c2065ed17e81d5d29ab48275",
+          "md5": "dd9b4db550ac67a6fc799b8d33f68e3b"
+        }
+      ]
+    }
+  ]
+}

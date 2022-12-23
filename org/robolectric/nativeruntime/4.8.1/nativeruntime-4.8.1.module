@@ -1,0 +1,92 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.robolectric",
+    "module": "nativeruntime",
+    "version": "4.8.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.robolectric",
+          "module": "utils",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "27.0.1-jre"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nativeruntime-4.8.1.jar",
+          "url": "nativeruntime-4.8.1.jar",
+          "size": 38685350,
+          "sha512": "cc845d4fa42024b636cb34afccb7d2b7cbb014881296a405335f037084100ed2d0edb38e1ebea4b963b8cbf4cf2fe44d2eac3e011590fb1f4ede06ff9a228bb8",
+          "sha256": "62e3e2de0e205a5a9a017f71de661d9529ac1a1f6bf4014609493a0ec95178f8",
+          "sha1": "3715b368f19dc64d1baa8f58e51ff587fd77a272",
+          "md5": "e90960d755e4c777e007113b4460772d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.robolectric",
+          "module": "utils",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "27.0.1-jre"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nativeruntime-4.8.1.jar",
+          "url": "nativeruntime-4.8.1.jar",
+          "size": 38685350,
+          "sha512": "cc845d4fa42024b636cb34afccb7d2b7cbb014881296a405335f037084100ed2d0edb38e1ebea4b963b8cbf4cf2fe44d2eac3e011590fb1f4ede06ff9a228bb8",
+          "sha256": "62e3e2de0e205a5a9a017f71de661d9529ac1a1f6bf4014609493a0ec95178f8",
+          "sha1": "3715b368f19dc64d1baa8f58e51ff587fd77a272",
+          "md5": "e90960d755e4c777e007113b4460772d"
+        }
+      ]
+    }
+  ]
+}

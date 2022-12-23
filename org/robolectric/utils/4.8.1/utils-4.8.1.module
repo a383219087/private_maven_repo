@@ -1,0 +1,134 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.robolectric",
+    "module": "utils",
+    "version": "4.8.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.robolectric",
+          "module": "annotations",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "org.robolectric",
+          "module": "pluginapi",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "javax.inject",
+          "module": "javax.inject",
+          "version": {
+            "requires": "1"
+          }
+        },
+        {
+          "group": "javax.annotation",
+          "module": "javax.annotation-api",
+          "version": {
+            "requires": "1.3.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "utils-4.8.1.jar",
+          "url": "utils-4.8.1.jar",
+          "size": 59572,
+          "sha512": "cdba0912f1a1a20aef2c138e73df75365b7a8e2dff45c94c1c0f30326662aa9558624a48e8897bee7fbb9a2ae4da270334d2f242f3538bc41e49cd658eab55d9",
+          "sha256": "c40afc0a140aada6830b3c2f7a331ad96d8e2f2a905458b6624b8fb12f7552d4",
+          "sha1": "050f83be2cf58e4b804d565536ced5f52ff55172",
+          "md5": "a5e7042e6aa7256a7dfae82210a9b512"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "27.0.1-jre"
+          }
+        },
+        {
+          "group": "com.google.errorprone",
+          "module": "error_prone_annotations",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "org.robolectric",
+          "module": "annotations",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "org.robolectric",
+          "module": "pluginapi",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "javax.inject",
+          "module": "javax.inject",
+          "version": {
+            "requires": "1"
+          }
+        },
+        {
+          "group": "javax.annotation",
+          "module": "javax.annotation-api",
+          "version": {
+            "requires": "1.3.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "utils-4.8.1.jar",
+          "url": "utils-4.8.1.jar",
+          "size": 59572,
+          "sha512": "cdba0912f1a1a20aef2c138e73df75365b7a8e2dff45c94c1c0f30326662aa9558624a48e8897bee7fbb9a2ae4da270334d2f242f3538bc41e49cd658eab55d9",
+          "sha256": "c40afc0a140aada6830b3c2f7a331ad96d8e2f2a905458b6624b8fb12f7552d4",
+          "sha1": "050f83be2cf58e4b804d565536ced5f52ff55172",
+          "md5": "a5e7042e6aa7256a7dfae82210a9b512"
+        }
+      ]
+    }
+  ]
+}

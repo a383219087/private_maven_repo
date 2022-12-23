@@ -1,0 +1,74 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.google.android.exoplayer",
+    "module": "exoplayer-database",
+    "version": "2.18.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "exoplayer-database-2.18.1.aar",
+          "url": "exoplayer-database-2.18.1.aar",
+          "size": 7326,
+          "sha512": "b05e230c1a3bf6e852a095e694c869a50364ce60c7339f6c2e43b3e8cc8b19525d24e1c0b61a80c5b8470398c8f8e4754f4bd309483ebb4ef65b172fbc531ef0",
+          "sha256": "d7510e96a0d88f197c5800cbc7a181c44176600cd83a06bd2e8ffa92e05f552b",
+          "sha1": "bdffba2f8b71c88f6b26ec41d45817fcdb11b1ce",
+          "md5": "99266122688ba714e6552e4ab52ab984"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-common",
+          "version": {
+            "requires": "2.18.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "exoplayer-database-2.18.1.aar",
+          "url": "exoplayer-database-2.18.1.aar",
+          "size": 7326,
+          "sha512": "b05e230c1a3bf6e852a095e694c869a50364ce60c7339f6c2e43b3e8cc8b19525d24e1c0b61a80c5b8470398c8f8e4754f4bd309483ebb4ef65b172fbc531ef0",
+          "sha256": "d7510e96a0d88f197c5800cbc7a181c44176600cd83a06bd2e8ffa92e05f552b",
+          "sha1": "bdffba2f8b71c88f6b26ec41d45817fcdb11b1ce",
+          "md5": "99266122688ba714e6552e4ab52ab984"
+        }
+      ]
+    }
+  ]
+}

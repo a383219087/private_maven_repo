@@ -1,0 +1,106 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.robolectric",
+    "module": "plugins-maven-dependency-resolver",
+    "version": "4.8.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.robolectric",
+          "module": "pluginapi",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "org.robolectric",
+          "module": "utils",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "27.0.1-jre"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugins-maven-dependency-resolver-4.8.1.jar",
+          "url": "plugins-maven-dependency-resolver-4.8.1.jar",
+          "size": 11808,
+          "sha512": "3895b9d55bd71f9846d3b98e262a63fda0107efd16ae015ae0844705cbc0e861743da39d9f67b122617def6fd620bdc9b4a6fa7084f1b078713c08e9ec9c5d4d",
+          "sha256": "dc87b3d6c55f5a6691246038ef4ba53311f406c784c8d9469d1f1112f885f72d",
+          "sha1": "83e7087636813298f23d30a8438cdf1a88a1d280",
+          "md5": "1c33051883e013e286a7a38b9e4ff4d6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.robolectric",
+          "module": "pluginapi",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "org.robolectric",
+          "module": "utils",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "27.0.1-jre"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugins-maven-dependency-resolver-4.8.1.jar",
+          "url": "plugins-maven-dependency-resolver-4.8.1.jar",
+          "size": 11808,
+          "sha512": "3895b9d55bd71f9846d3b98e262a63fda0107efd16ae015ae0844705cbc0e861743da39d9f67b122617def6fd620bdc9b4a6fa7084f1b078713c08e9ec9c5d4d",
+          "sha256": "dc87b3d6c55f5a6691246038ef4ba53311f406c784c8d9469d1f1112f885f72d",
+          "sha1": "83e7087636813298f23d30a8438cdf1a88a1d280",
+          "md5": "1c33051883e013e286a7a38b9e4ff4d6"
+        }
+      ]
+    }
+  ]
+}

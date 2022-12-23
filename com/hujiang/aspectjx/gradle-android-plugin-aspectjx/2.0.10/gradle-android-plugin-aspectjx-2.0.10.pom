@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.hujiang.aspectjx</groupId>
+  <artifactId>gradle-android-plugin-aspectjx</artifactId>
+  <version>2.0.10</version>
+  <name>gradle-android-plugin-aspectjx</name>
+  <url>https://github.com/HujiangTechnology/gradle_plugin_android_aspectjx</url>
+  <organization>
+    <name>hujiang, Inc.</name>
+    <url>http://www.hujiang.com</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>firefly1126</id>
+      <name>firefly1126</name>
+      <email>xiaoming1109@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/HujiangTechnology/gradle_plugin_android_aspectjx.git</connection>
+    <developerConnection>https://github.com/HujiangTechnology/gradle_plugin_android_aspectjx/issues</developerConnection>
+    <url>https://github.com/HujiangTechnology/gradle_plugin_android_aspectjx</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.tools.build</groupId>
+      <artifactId>gradle</artifactId>
+      <version>3.6.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.tools.build</groupId>
+      <artifactId>transform-api</artifactId>
+      <version>1.5.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

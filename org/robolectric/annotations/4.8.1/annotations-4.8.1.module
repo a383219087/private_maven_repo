@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.robolectric",
+    "module": "annotations",
+    "version": "4.8.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "annotations-4.8.1.jar",
+          "url": "annotations-4.8.1.jar",
+          "size": 20875,
+          "sha512": "82cee0e527402301cefae17ee23d7c4c578a34f7108107e915ad21be0b1ec9ed2bf01eb8c585549d60594704e287f87593c0ccfc4f024f5f4b6097aae7c6d387",
+          "sha256": "d3924abb4c9f7c20df582e4553ac13203bb40b7c367bf5bf776a9acbb252e181",
+          "sha1": "b452cd01bec84b42e9f83d08a86270a0334081c6",
+          "md5": "1d1676557d00db4edb8fe84dd97b18b0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "annotations-4.8.1.jar",
+          "url": "annotations-4.8.1.jar",
+          "size": 20875,
+          "sha512": "82cee0e527402301cefae17ee23d7c4c578a34f7108107e915ad21be0b1ec9ed2bf01eb8c585549d60594704e287f87593c0ccfc4f024f5f4b6097aae7c6d387",
+          "sha256": "d3924abb4c9f7c20df582e4553ac13203bb40b7c367bf5bf776a9acbb252e181",
+          "sha1": "b452cd01bec84b42e9f83d08a86270a0334081c6",
+          "md5": "1d1676557d00db4edb8fe84dd97b18b0"
+        }
+      ]
+    }
+  ]
+}

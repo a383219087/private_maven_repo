@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.JavaNoober.BackgroundLibrary</groupId>
+  <artifactId>library</artifactId>
+  <version>1.7.3</version>
+  <packaging>aar</packaging>
+  <name>JavaNoober/BackgroundLibrary</name>
+  <description>A framework for directly generating shape through Tags, no need to write shape.xml again（通过标签直接生成shape，无需再写shape.xml）</description>
+  <url>https://github.com/JavaNoober/BackgroundLibrary</url>
+  <inceptionYear>2018</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>JavaNoober</id>
+      <name>javaKepp</name>
+      <email>xiaoqidev@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/JavaNoober/BackgroundLibrary.git</connection>
+    <developerConnection>scm:git://github.com/JavaNoober/BackgroundLibrary.git</developerConnection>
+    <url>git://github.com/JavaNoober/BackgroundLibrary.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
